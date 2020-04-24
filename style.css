@@ -1,0 +1,23 @@
+body {
+    margin:0;
+}
+
+.menu_contents {
+    display: flex;
+    background-color:#e83313;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
