@@ -4,22 +4,24 @@
     <meta charset="utf-8">
     <title>Test de memi</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script> 
   </head>
   <body>
     <div class="wrapper">
-      <header>
           <nav>
-              <ul class="menu_contents">
-                  <li><a href="#" class="navlink">Home</a></li>
-                  <li><a href="#" class="navlink">Esercizi</a></li>
-              </ul>
+              <div class="sidebar">
+                  <a href="#" class="navlink">Home</a></li>
+                  <a href="#" class="navlink">Esercizi</a></li>
+              </div>
           </nav>
-      </header>
 
-      <main>Buongionno piccimimi! Guarda questi belli sottilini:<br>
-        <img src="sottilini.jpg" class="centered" id="sottilini">
+      <main class="content">Buongionno piccimimi! Guarda questi belli sottilini:<br>
+        <img src="sottilini.jpg" class="centered" id="sottilini"><br>
         Me sembra che so felici peddirti la verità<br>
-        Passa col mouse sulla barra del menù e fammi sape se te piasa
+        Passa col mouse sulla barra del menù e fammi sape se te piasa<br>
+
+        <button class="centered" onclick="pidineria()">Premi qui ihih</button>
+        <p class="centered" id="vuoto"></p>
       </main>
     </div>
   </body>
