@@ -11,23 +11,29 @@ body {
     margin-right: auto;
     width: 100%;
     background-color: #fff;
-    position:relative;
 }
 main {
     font-size: 2em;
 }
 .sidebar {
-    display: flex;
     background-color:#e83313;
-    list-style: none;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
     margin: 0px;
+    width: 200px;
+    display: block;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 .navlink {
     text-decoration: none;
     color: white;
     padding: 10px;
-    font-size: 3em;
+    font-size: 30px;
+    display: block;
 }
 .navlink:hover {
     color: #e83313;
@@ -37,6 +43,16 @@ main {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.sidebarbtn {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: #e83313;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 }
 #sottilini {
     margin-top: 20px;
