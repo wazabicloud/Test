@@ -48,11 +48,19 @@ main {
     height: 40px;
     width: 40px;
     font-size: 30px;
-    color: #e83313;
-    background-color: white;
+    background-color: #e83313;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
     text-decoration: none;
     display: block;
     text-align: center;
+}
+.sidebarbtn:hover {
+    color: #e83313;
+    background-color:#fff;
 }
 #sottilini {
     margin-top: 20px;
