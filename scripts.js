@@ -4,5 +4,11 @@ function pidineria () {
 }
 
 function aprichiudibarra() {
-    document.getElementById("sidebar").style.width = "0";
+    sidesize = document.getElementById("sidebar").style.width;
+    if (sidesize == 0) {
+        document.getElementById("sidebar").style.width = "200px";
+    } else {
+        document.getElementById("sidebar").style.width = "0";
+    }
+
 }

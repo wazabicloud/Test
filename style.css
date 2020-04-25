@@ -19,13 +19,13 @@ main {
     background-color:#e83313;
     padding: 0px;
     margin: 0px;
-    width: 200px;
+    width: 0px;
     display: block;
     height: 100%;
     overflow: auto;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 60px;
     left: 0;
 }
 .navlink {
@@ -46,20 +46,14 @@ main {
 }
 .sidebarbtn {
     height: 40px;
-    width: 40px;
+    width: 100%;
     font-size: 30px;
     background-color: #e83313;
     color: white;
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 3px;
     text-decoration: none;
     display: block;
-    text-align: center;
-    margin-left: 130px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 .sidebarbtn:hover {
     color: #e83313;
