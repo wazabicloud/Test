@@ -27,6 +27,7 @@ main {
     z-index: 1;
     top: 60px;
     left: 0;
+    transition: 0.5s;
 }
 .navlink {
     text-decoration: none;
@@ -76,5 +77,8 @@ main {
 @media (min-width: 1200px) {
     .wrapper {
         width: 1000px;
+    }
+    .sidebarbtn {
+        display: none;
     }
 }
