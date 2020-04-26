@@ -48,15 +48,14 @@ main {
 .barrasup{
     width: 100%;
     background-color: #e83313;
-    height: 5vh;
 }
 .sidebarbtn {
     font-size: 3vh;
     color: white;
     text-align: center;
     text-decoration: none;
-    margin-left: 1vh;
-    padding: 0px;
+    margin: 0;
+    padding: 1vh;
     vertical-align: middle;
 }
 .sidebarbtn:hover {
