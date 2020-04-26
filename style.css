@@ -4,7 +4,7 @@ body {
     position:relative;
 }
 .content {
-    margin: 10px;
+    padding: 10px;
 }
 .wrapper{
     margin-left: auto;
@@ -45,12 +45,17 @@ main {
     margin-right: auto;
     display: block;
 }
+.barrasup{
+    width: 100%;
+    background-color: #e83313;
+    height: 60px;
+}
 .sidebarbtn {
     height: 40px;
-    width: 100%;
+    width: 40px;
     font-size: 30px;
-    background-color: #e83313;
     color: white;
+    text-align: center;
     text-decoration: none;
     display: block;
     margin: 0px;
@@ -77,8 +82,14 @@ main {
 @media (min-width: 1200px) {
     .wrapper {
         width: 1000px;
+        display: flex;
     }
     .sidebarbtn {
         display: none;
+    }
+    #sidebar {
+        width: 200px;
+        position: relative;
+        top: 0px;
     }
 }
