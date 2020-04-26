@@ -6,7 +6,7 @@ var sidestate = 0;
 
 function aprichiudibarra() {
     if (sidestate == 0) {
-        document.getElementById("sidebar").style.width = "200px";
+        document.getElementById("sidebar").style.width = "50vw";
         sidestate = 1;
     } else {
         document.getElementById("sidebar").style.width = "0";
