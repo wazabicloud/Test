@@ -5,15 +5,13 @@ body {
 }
 .content {
     padding: 10px;
+    font-size: 4vmin;
 }
 .wrapper{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     background-color: #fff;
-}
-main {
-    font-size: 2em;
 }
 #sidebar {
     background-color:#e83313;
@@ -25,7 +23,7 @@ main {
     overflow: auto;
     position: fixed;
     z-index: 1;
-    top: 5vh;
+    top: 5vmax;
     left: 0;
     transition: 0.5s;
     outline: 0;
@@ -34,7 +32,7 @@ main {
     text-decoration: none;
     color: white;
     padding: 10px;
-    font-size: 3vh;
+    font-size: 3vmax;
     display: block;
 }
 .navlink:hover, .navlink:active, .navlink:focus {
@@ -49,13 +47,13 @@ main {
 .barrasup{
     width: 100%;
     background-color: #e83313;
-    height: 5vh;
+    height: 5vmax;
 }
 .sidebarbtn {
     display: block;
-    height: 5vh;
-    width: 5vh;
-    font-size: 3vh;
+    height: 5vmax;
+    width: 5vmax;
+    font-size: 3vmax;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -81,7 +79,7 @@ main {
     border-radius: 10px;
 }
 #premibtn {
-    font-size: 3vh;
+    font-size: 4vmin;
 }
 @media (min-width: 1200px) {
     .wrapper {
