@@ -49,20 +49,25 @@ body {
     display: block;
 }
 .barrasup{
+    padding:1vmax;
     width: 100%;
     background-color: var(--navblack);
-    height: 5vmax;
+    margin:0;
+    overflow: auto;
 }
 .sidebarbtn {
     display: block;
+    float: right;
     height: 5vmax;
     width: 5vmax;
     font-size: 3vmax;
     color: white;
     text-align: center;
     text-decoration: none;
-    margin: 0;
     outline: 0;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin-right: 2vmax;
 }
 .sidebarbtn:hover, .sidebarbtn:active, .sidebarbtn:focus {
     color:var(--navblack);
