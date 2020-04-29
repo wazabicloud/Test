@@ -1,3 +1,7 @@
+:root {
+    --mattone: #e83313;
+    --navblack: rgb(9, 10, 17);
+}
 body {
     margin:0;
     background-color: beige;
@@ -11,10 +15,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: #fff;
+    background-color: white;
 }
 #sidebar {
-    background-color:#e83313;
+    background-color:var(--navblack);
     padding: 0px;
     margin: 0px;
     width: 0px;
@@ -36,8 +40,8 @@ body {
     display: block;
 }
 .navlink:hover, .navlink:active, .navlink:focus {
-    color: #e83313;
-    background-color:#fff;
+    color: var(--navblack);
+    background-color:white;
 }
 .centered {
     margin-left: auto;
@@ -46,7 +50,7 @@ body {
 }
 .barrasup{
     width: 100%;
-    background-color: #e83313;
+    background-color: var(--navblack);
     height: 5vmax;
 }
 .sidebarbtn {
@@ -61,7 +65,7 @@ body {
     outline: 0;
 }
 .sidebarbtn:hover, .sidebarbtn:active, .sidebarbtn:focus {
-    color: #e83313;
+    color:var(--navblack);
     background-color:white;
 }
 #sottilini {
