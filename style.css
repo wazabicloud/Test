@@ -49,7 +49,8 @@ body {
     display: block;
 }
 .barrasup{
-    padding:1vmax;
+    padding-top:1vmax;
+    padding-bottom:1vmax;
     width: 100%;
     background-color: var(--navblack);
     margin:0;
@@ -65,9 +66,9 @@ body {
     text-align: center;
     text-decoration: none;
     outline: 0;
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 10%;
-    margin-right: 2vmax;
+    margin-right: 1vmax;
 }
 .sidebarbtn:hover, .sidebarbtn:active, .sidebarbtn:focus {
     color:var(--navblack);
