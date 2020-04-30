@@ -33,12 +33,12 @@ body {
 }
 .sidebarchk {
     position: absolute;
-    top:15px;
-    left:15px;
+    top:0;
+    left:0;
     margin:0;
     opacity: 0;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     z-index: 99;
     cursor: pointer;
 }
@@ -56,10 +56,10 @@ body {
     border-radius: 15px;
     box-sizing: border-box;
 }
-.sidebarchk:hover ~ .sidebarbtn, .sidebarchk:active ~ .sidebarbtn {
+.sidebarchk:hover ~ .sidebarbtn {
     background-color:white;
 }
-.sidebarchk:hover ~ span, .sidebarchk:active ~ span {
+.sidebarchk:hover ~ span {
     background-color:var(--navblack);
 }
 .barrasup span {
