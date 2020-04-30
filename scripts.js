@@ -1,6 +1,8 @@
 function pidineria () {
-    document.getElementById("vuoto").innerHTML = "BUONGIONNO PICCIMIMI! ❤";
-    document.getElementById("vuoto").style.borderWidth = "4px";
+    document.getElementById("vuoto").innerHTML = "BUONGIONNO<br>PICCIMIMI! ❤";
+    document.getElementById("vuoto").style.border = "4px solid black";
+    document.getElementById("vuoto").style.padding = "15px";
+    document.getElementById("premibtn").style.display = "none";
 }
 var sidestate = 0;
 
