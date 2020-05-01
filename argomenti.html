@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test - Argomenti</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <input type="checkbox" class="sidebarchk" id="sidebarchk">
+      <label for="sidebarchk" class="sidebarbtn">
+        <div class="firstdiv"></div>
+        <div class="seconddiv"></div>
+        <div class="thirddiv"></div>
+      </label>
+      <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="#">Argomenti</a>
+        <a href="#">Risorse Utili</a>
+        <a href="#">Contatti</a>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <main>
+        <p>In questa sezione trovi i collegamenti agli esercizi, divisi per categoria.</p>
+        
+        <div class="dropdown">
+          <button onclick="dropmenu()" class="dropbtn">V</button>
+          <div class="drop-content" id="drop-content">
+            <div>Moto pidino uniforme</div>
+            <div>Moto uniformemente swifferinato</div>
+            <div>Baierino armonico</div> 
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

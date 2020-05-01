@@ -4,7 +4,7 @@
 }
 body {
     margin:0;
-    background-color: beige;
+    background-color: white;
     position:relative;
     font-size: 30px;
     font-family: sans-serif;
@@ -35,7 +35,7 @@ body {
 .sidebarbtn {
     height: 70px;
     width: 70px;
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
     margin: 0;
     position: absolute;
@@ -83,7 +83,7 @@ body {
 .sidebar a {
     display: block;
     color: white;
-    padding: 10px;
+    padding: 20px;
     font-size: 30px;
     text-decoration: none;
     outline: 0;
@@ -91,6 +91,31 @@ body {
 .sidebar a:hover {
     background-color: white;
     color: var(--navblack);
+}
+.dropbtn {
+    background-color: var(--mattone);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.drop-content {
+    display: none;
+    color: var(--navblack);
+    z-index: 1;
+    background-color: beige;
+    transition: 0.5s;
+}
+.drop-content div {
+    padding: 15px;
+    border-bottom: 1px solid var(--mattone);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.show-content {
+    display:block;
 }
 .esimg {
     width: 600px;
@@ -111,8 +136,4 @@ body {
     background: linear-gradient(rgb(155, 84, 248), red);
     width: 300px;
     border-radius: 15px;
-}
-#mathfig {
-    height: 100px;
-    width: 100px;
 }
