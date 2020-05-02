@@ -3,8 +3,10 @@ function pidineria () {
     document.getElementById("vuoto").style.border = "4px solid black";
     document.getElementById("vuoto").style.padding = "15px";
     document.getElementById("premibtn").style.display = "none";
-}
+};
 
-function dropmenu() {
-    document.getElementById("drop-content").classList.toggle("show-content");
-}
+$(document).ready(function(){
+    $(".dropbtn").click( function () {
+        $(this).parent().next().slideToggle("slow");
+    });
+});

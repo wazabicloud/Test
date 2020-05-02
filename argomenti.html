@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Test - Argomenti</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
   </head>
   <body>
-
     <nav class="navbar">
       <input type="checkbox" class="sidebarchk" id="sidebarchk">
       <label for="sidebarchk" class="sidebarbtn">
@@ -28,13 +28,30 @@
         <p>In questa sezione trovi i collegamenti agli esercizi, divisi per categoria.</p>
         
         <div class="dropdown">
-          <button onclick="dropmenu()" class="dropbtn">V</button>
+          <div class="dropdown-title-container">  
+            <div class="dropdown-title">Cinematica dei Kammi</div>        
+            <button class="dropbtn">V</button>
+          </div>
+
           <div class="drop-content" id="drop-content">
             <div>Moto pidino uniforme</div>
             <div>Moto uniformemente swifferinato</div>
             <div>Baierino armonico</div> 
           </div>
         </div>
+
+        <div class="dropdown">
+          <div class="dropdown-title-container">  
+            <div class="dropdown-title">Termopudinerie</div>        
+            <button class="dropbtn">V</button>
+          </div>
+
+          <div class="drop-content" id="drop-content">
+            <div>Il primo principio della termopidinica</div>
+            <div>Il secondo principio della termopidinica</div>
+          </div>
+        </div>
+
       </main>
     </div>
   </body>
