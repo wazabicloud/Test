@@ -107,7 +107,7 @@ body {
     width: max-content;
 }
 .dropdown {
-    margin: 15px;
+    margin: 20px 0px 10px 0px;
 }
 .dropbtn {
     display: block;
@@ -118,6 +118,8 @@ body {
     border: none;
     cursor: pointer;
     font-size: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .drop-content {
     display: none;
