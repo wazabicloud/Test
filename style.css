@@ -2,9 +2,14 @@
     --mattone: #e83313;
     --navblack: rgb(9, 10, 17);
 }
-body {
+html{
     margin:0;
-    background-color: white;
+    padding: 0;
+}
+body {
+    padding: 0;
+    margin:0;
+    background-color: beige;
     position:relative;
     font-size: 16px;
     font-family: sans-serif;
@@ -30,11 +35,8 @@ body {
 .navbar {
     height: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: var(--navblack);
-}
-.sidebarchk {
-    display: none;
 }
 .sidebarbtn {
     height: 40px;
@@ -53,6 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    position: fixed;
 }
 .sidebarbtn div {
     display: block;
@@ -154,4 +157,31 @@ body {
 }
 div p {
     margin: 0;
+}
+@media (min-width: 300px) {
+.wrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+.sidebarbtn {
+    display:none;
+}
+.sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin: 0;
+    width: max-content;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.sidebar a {
+    padding: 22px 15px 24px 15px;
+    font-size: 25px;
+}
+.navbar {
+    height: max-content;
+}
 }
