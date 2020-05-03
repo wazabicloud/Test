@@ -12,7 +12,10 @@
 				processEscapes: true
 			},
 			chtml: {
-				scale: 2,
+				scale: 1.4,
+			},
+			svg: {
+				scale: 1.4,
 			}
 		  };		
 	  }
