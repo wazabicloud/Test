@@ -29,26 +29,46 @@
     <div class="wrapper">
 
       <main>
-        <p>Buongionno piccimimi! Guarda questi belli sottilini:</p>
+        <div class="consegna">
+          <p>Un blocco di massa 3 kg si trova su un piano inclinato di 30°
+            rispetto all'orizzontale. Calcola la sua accelerazione.</p>
+        </div>
 
-        <img src="sottilini.jpg" class="centered" id="sottilini">
+        <div class="soluzione-head">Soluzione:</div>
+        
+        <div class="soluzione">
+          Come primo passo, è necessario disegnare uno schema dove
+          rappresentiamo le forze che agiscono sul corpo.
+          In questo caso c'è solo la forza peso:
 
-        <p>Me sembra che so felici peddirti la verità.<br>
-        Passa col mouse sulla barra del menù e fammi sape se te piasa!</p>
-  
-        <button class="centered" id="premibtn" onclick="pidineria()">Premi qui ihih</button>
-        <div class="centered" id="vuoto"></div>
+          <img src="1.png" class="centered esimg">
 
-        <p>Test equazione</p>
-        \begin{equation*}
-          x^2 - 1 = 0
-        \end{equation*}
+          A questo punto si scompongono le forze
+          nelle componenti parallele e perpendicolari al piano:
 
-        <div class="esercizio">
-          <h2>Esercizio pe la mia lepina</h2>
-          <p>Un raggio laser viene riflesso da uno specchio prima di colpire il terreno come in figura.</p>
-          <img src="conv5.png" class="centered esimg">
-          <p>Calcola &#945; e &#946;.</p>
+          <img src="2.png" class="centered esimg">
+
+          L'accelerazione lungo il piano è dovuta alla sola componente parallela della forza,
+          che si può calcolare con:
+
+          <div class="equazione">
+            \begin{align*}
+            F_{//} &= m\: g\: sen(\alpha) = \\[10pt]
+            &= 3\ kg \cdot 9{,}81\ \tfrac{N}{kg} \cdot sen(30°) = \\[10pt]
+            &= 14,72\ N
+            \end{align*}
+          </div>
+
+          Infine, si può calcolare l'accelerazione con la seconda legge di Newton:
+
+          <div class="equazione">
+            \begin{align*}
+            F_{//} &= m\: a \\[10pt]
+            a &= \frac{F_{//}}{m}=\\[10pt]
+            &= \frac{14{,}72\ N}{3\ kg}=\\[10pt]
+            &= 4{,}91 \tfrac{m}{s^2}
+            \end{align*}
+          </div>
 
         </div>
       </main>
