@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
-    <script src="load-mathjax.js" defer></script>
+    <link rel="stylesheet" href="./katex/katex.css">
+    <script defer src="./katex/katex.js"></script>
+    <script defer src="./katex/auto-render.js" onload="renderMathInElement(document.body);"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -52,22 +54,22 @@
           che si può calcolare con:
 
           <div class="equazione">
-            \begin{align*}
+            $$\begin{aligned}
             F_{//} &= m\: g\: sen(\alpha) = \\[10pt]
             &= 3\ kg \cdot 9{,}81\ \tfrac{N}{kg} \cdot sen(30°) = \\[10pt]
             &= 14{,}72\ N
-            \end{align*}
+            \end{aligned}$$
           </div>
 
           Infine, si può calcolare l'accelerazione con la seconda legge di Newton:
 
           <div class="equazione">
-            \begin{align*}
+            $$\begin{aligned}
             F_{//} &= m\: a \\[10pt]
             a &= \frac{F_{//}}{m}=\\[10pt]
             &= \frac{14{,}72\ N}{3\ kg}=\\[10pt]
             &= 4{,}91 \tfrac{m}{s^2}
-            \end{align*}
+            \end{aligned}$$
           </div>
 
         </div>
