@@ -1,10 +1,10 @@
 :root {
     --mattone: #e83313;
-    --navblack: rgb(9, 10, 17);
+    --navblack: #162b32;
 }
-html{
-    margin:0;
-    padding: 0;
+@font-face {
+    font-family: roboto;
+    src: url(RobotoSlab-Regular.ttf);
 }
 body {
     padding: 0;
@@ -22,6 +22,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
+    font-family: roboto;
 }
 .main p {
     margin-top: 15px;
@@ -37,6 +38,7 @@ body {
     width: 100%;
     position: fixed;
     background-color: var(--navblack);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .sidebarbtn {
     height: 40px;
@@ -176,7 +178,6 @@ div p {
     display: flex;
     margin: 0;
     width: max-content;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .sidebar a {
     padding: 22px 15px 24px 15px;
