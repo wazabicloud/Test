@@ -4,25 +4,32 @@
 }
 @font-face {
     font-family: roboto;
-    src: url(RobotoSlab-Regular.ttf);
+    src: url(RobotoSlab.ttf);
+}
+@font-face {
+    font-family: comfortaa;
+    src: url(Comfortaa.ttf);
 }
 body {
     padding: 0;
     margin:0;
-    background-color: beige;
-    position:relative;
+    background-color: rgb(238, 238, 222);
     font-size: 16px;
     font-family: sans-serif;
 }
 .wrapper{
     width: 100%;
-    height: 100%;
     background-color: white;
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
     font-family: roboto;
+    margin: 0;
+    padding-bottom: 20px;
+}
+main {
+    margin: 0;
 }
 .main p {
     margin-top: 15px;
@@ -83,13 +90,14 @@ body {
     margin-top: 60px;
     display: block;
     background-color: var(--navblack);
-
+    z-index: 99;
 }
 .sidebar a {
     display: block;
     color: white;
     padding: 10px;
     font-size: 20px;
+    font-family: comfortaa;
     text-decoration: none;
     outline: 0;
 }
@@ -180,10 +188,12 @@ div p {
     width: max-content;
 }
 .sidebar a {
-    padding: 22px 15px 24px 15px;
+    padding: 24px 15px;
     font-size: 25px;
+    height: 75px;
+    box-sizing: border-box;
 }
 .navbar {
-    height: max-content;
+    height: 75px;
 }
 }
