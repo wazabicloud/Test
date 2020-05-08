@@ -218,8 +218,18 @@ footer a {
     padding: 10px 20px;
     border-radius: 35px;
 }
+.lista-esercizi {
+    border-collapse: collapse;
+}
 .lista-esercizi tr td {
-    padding: 0 10px 20px 10px;
+    padding:10px;
+    border-bottom: 3px solid var(--mattone);
+}
+.lista-esercizi tr td p {
+    padding-bottom: 5px;
+}
+.lista-esercizi tr:last-child td {
+    border: none;
 }
 .lista-esercizi tr td:first-child {
     color: var(--mattone);
@@ -256,5 +266,8 @@ footer a {
 }
 .navbar {
     height: 75px;
+}
+.esimg {
+    max-width: 600px;
 }
 }
