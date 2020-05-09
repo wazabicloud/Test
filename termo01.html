@@ -24,7 +24,7 @@
       <nav class="sidebar">
         <a href="index.html">Home</a>
         <a href="argomenti.html">Fisica</a>
-        <a href="#">Esempio</a>
+        <a href="#">Matematica</a>
         <a href="#">Contatti</a>
       </nav>
       
@@ -61,7 +61,7 @@
         
         <div class="soluzione">
 
-			Per risolvere il primo punto si può usare la legge dei gas perfetti:
+			1. Per risolvere il primo punto si può usare la legge dei gas perfetti:
 
 			<div class="equazione">
 				$$P V = n R T$$
@@ -73,23 +73,84 @@
 				$$T = \frac{P V}{n R}$$
 			</div>
 
+			Per esempio calcoliamo ££T_A££:
+
 			<div class="equazione">
 				$$\begin{aligned}
-				T_A &= \frac{P_A V_A}{n R} = \frac{101325\ Pa \cdot 5\cdot 10^{-2}\ m^3}{2\ mol \cdot 8{,}314\ \tfrac{J}{mol \cdot K}} = 782 K
+				T_A &= \frac{P_A V_A}{n R} = \\[10pt]
+				&= \frac{101325\ Pa \cdot 0{,}05\ m^3}{2\ mol \cdot 8{,}314\ \tfrac{J}{mol \cdot K}} = \\[10pt]
+				&= 782\ K
 				\end{aligned}$$
 			</div>
 
-          Infine, si può calcolare l'accelerazione con la seconda legge di Newton:
+			Allo stesso modo si possono trovare ££T_B££, ££T_C££ e ££T_D££:
 
-          <div class="equazione">
-            $$\begin{aligned}
-            F_{//} &= m\: a \\[10pt]
-            a &= \frac{F_{//}}{m}=\\[10pt]
-            &= \frac{14{,}72\ N}{3\ kg}=\\[10pt]
-            &= 4{,}91 \tfrac{m}{s^2}
-            \end{aligned}$$
-          </div>
+			<div class="equazione">
+				$$\begin{aligned}
+				T_B &= 1876\ K \\[10pt]
+				T_C &= 721\ K \\[10pt]
+				T_D &= 301\ K
+				\end{aligned}$$
+			</div>
 
+			2. Il lavoro prodotto ad ogni ciclo corrisponde all'area del rettangolo ABCD.
+			In particolare, il lavoro sarà positivo perché le frecce ruotano in senso orario.
+
+			<div class="equazione">
+				$$ L = \Delta P \cdot \Delta V $$
+			</div>
+
+			££\Delta V££ e ££\Delta P££ si possono ricavare direttamente dal grafico:
+
+			<div class="equazione">
+				$$\begin{aligned}
+				\Delta V &= V_C - V_D = \\[10pt]
+				&= 0{,}12\ m^3 - 0{,}05\ m^3 = \\[10pt]
+				&= 0{,}07\ m^3 \\[10pt]
+				\Delta P &= P_A - P_D = \\[10pt]
+				&= 263445\ Pa - 101325\ Pa = \\[10pt]
+				&= 162120\ Pa
+				\end{aligned}$$
+			</div>
+
+			Da cui:
+
+			<div class="equazione">
+				$$ L = 11348\ J$$
+			</div>
+
+			3. Il rendimento di una macchina termica si può calcolare con:
+
+			<div class="equazione">
+				$$ \eta = \frac{L}{Q_{ass}}$$
+			</div>
+
+			Nel nostro caso:
+
+			<div class="equazione">
+				$$\begin{aligned}
+				\eta &= \frac{11384\ J}{57700\ J} = \\[10pt]
+				&= 0{,}197
+				\end{aligned}$$
+			</div>
+
+			4. Infine, il rendimento di una macchina di Carnot si calcola con:
+
+			<div class="equazione">
+				$$ \eta_C = 1 - \frac{T_2}{T_1}$$
+			</div>
+
+			Dove ££T_2££ e ££T_1££ sono le temperature mantenute durante le trasformazioni isoterme.
+			Nello specifico, ££T_2££ è quella più bassa che nel nostro caso corrisponde a ££T_D££, 
+			mentre ££T_1££ è quella più alta che nel nostro caso corrisponde a ££T_B££.
+
+			<div class="equazione">
+				$$\begin{aligned}
+				\eta_C &= 1 - \frac{T_D}{T_B} = \\[10pt]
+				&= 1 - \frac{301\ K}{1876\ K} = \\[10pt]
+				&= 0{,}840
+				\end{aligned}$$
+			</div>
         </div>
       </main>
       <footer>
