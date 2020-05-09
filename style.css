@@ -134,6 +134,7 @@ main {
     border: none;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 0;
 }
 .drop-content {
     display: none;

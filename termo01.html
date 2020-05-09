@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>I principi della dinamica</title>
+    <title>Termodinamica</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
@@ -31,44 +31,53 @@
     <div class="wrapper">
 
       <header class="head-esercizio">
-        I principi della dinamica - 01
+        Termodinamica - 01
         <div class="breadcrumbs">
           <a href="index.html">Home</a> > <a href="argomenti.html">Argomenti</a>
-          > <a href="principi-della-dinamica.html">I principi della dinamica</a> > <a href="#" class="active">Esercizio 1</a>
+          > <a href="termodinamica.html">Termodinamica</a> > <a href="#" class="active">Esercizio 1</a>
         </div>
       </header>
 
       <main>
 
         <div class="consegna">
-          <p>Un blocco di massa 3 kg si trova su un piano inclinato di 30°
-            rispetto all'orizzontale. Calcola la sua accelerazione.</p>
+			<p>
+				Una macchina termica lavora utilizzando 2 mol di un gas ideale secondo il ciclo mostrato in figura.
+			</p>
+
+			<img src="termo1.png" class="centered esimg">
+
+			<p>Calcola:
+				<ol>
+					<li>Le temperature nei punti A, B, C e D.</li>
+					<li>Il lavoro prodotto ad ogni ciclo</li>
+					<li>Il rendimento della macchina termica, sapendo che il calore assorbito ad ogni ciclo vale 57,7 kJ.</li>
+					<li>Il rendimento di una macchina termica che segue il ciclo di Carnot e opera tra la temperatura massima e minima calcolate al primo punto dell'esercizio.</li>
+				</ol>
+			</p>
         </div>
 
         <div class="soluzione-head">Soluzione:</div>
         
         <div class="soluzione">
-          Come primo passo, è necessario disegnare uno schema dove
-          rappresentiamo le forze che agiscono sul corpo.
-          In questo caso c'è solo la forza peso:
 
-          <img src="1.png" class="centered esimg">
+			Per risolvere il primo punto si può usare la legge dei gas perfetti:
 
-          A questo punto si scompongono le forze
-          nelle componenti parallele e perpendicolari al piano:
+			<div class="equazione">
+				$$P V = n R T$$
+			</div>
 
-          <img src="2.png" class="centered esimg">
+			Da cui:
 
-          L'accelerazione lungo il piano è dovuta alla sola componente parallela della forza,
-          che si può calcolare con:
+			<div class="equazione">
+				$$T = \frac{P V}{n R}$$
+			</div>
 
-          <div class="equazione">
-            $$\begin{aligned}
-            F_{//} &= m\: g\: sen(\alpha) = \\[10pt]
-            &= 3\ kg \cdot 9{,}81\ \tfrac{N}{kg} \cdot sen(30°) = \\[10pt]
-            &= 14{,}72\ N
-            \end{aligned}$$
-          </div>
+			<div class="equazione">
+				$$\begin{aligned}
+				T_A &= \frac{P_A V_A}{n R} = \frac{101325\ Pa \cdot 5\cdot 10^{-2}\ m^3}{2\ mol \cdot 8{,}314\ \tfrac{J}{mol \cdot K}} = 782 K
+				\end{aligned}$$
+			</div>
 
           Infine, si può calcolare l'accelerazione con la seconda legge di Newton:
 
